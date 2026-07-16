@@ -155,28 +155,7 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* TRUST BAR */}
-      <section style={{ background: 'var(--neon-pink)' }} className="overflow-hidden">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
-            {[
-              
-              { icon: Star, title: '250+ 5-Star Reviews', sub: 'Rated Excellent on Trustpilot' },
-              { icon: MapPin, title: 'UK Made in London', sub: 'Handcrafted by our skilled team' },
-              { icon: CreditCard, title: 'Pay with Klarna', sub: 'Flexible payment options' },
-              
-            ].map((item, i) => (
-              <div key={i} className="flex items-center gap-2.5">
-                <item.icon size={22} className="text-white shrink-0" />
-                <div>
-                  <p className="text-white font-bold text-sm leading-none">{item.title}</p>
-                  <p className="text-white/75 text-xs mt-0.5">{item.sub}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+  
 
       {/* READY TO CREATE CTA */}
       <section className="relative overflow-hidden py-16 lg:py-20" style={{ background: 'linear-gradient(135deg, #3b0e6e 0%, #5c1fa0 35%, #4a1590 65%, #2d1270 100%)' }}>
