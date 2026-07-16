@@ -84,7 +84,7 @@ export function HomePage() {
           </h1>
 
           <p className="text-white/75 text-base lg:text-lg max-w-xl mx-auto mt-5 leading-relaxed">
-            Transform your space with handcrafted LED neon. From design to delivery in as little as 3–4 days.
+            Transform your space with handcrafted LED neon. From design to delivery♡.
           </p>
 
           {/* Three action cards */}
@@ -157,7 +157,7 @@ export function HomePage() {
 
       {/* TRUST BAR */}
       <section style={{ background: 'var(--neon-pink)' }} className="overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
             {[
               
