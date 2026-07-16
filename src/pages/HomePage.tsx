@@ -99,7 +99,7 @@ export function HomePage() {
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="/public/burger neon.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pizMpr_WTHNBGB8g3zAe0aoOpaM16Nqshgh79_S4iQ&s=10"
                   alt="Design Your Own"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
