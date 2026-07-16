@@ -173,8 +173,6 @@ export function Header() {
 
 export function AnnouncementBar() {
   const messages = [
-    'Custom LED Neon Signs now 25% OFF',
-    'Free Worldwide Shipping on Orders Over £75',
     '12 Month Warranty on All Signs',
     'Design Your Own Custom Neon Today',
   ];
