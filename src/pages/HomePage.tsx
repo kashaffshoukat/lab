@@ -82,8 +82,8 @@ export function HomePage() {
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
             Custom LED Neon Signs,
-            <br />
-            Love at First Light!</span>
+            <br/>
+            Love at First Light!
           </h1>
 
           <p className="text-white/75 text-base lg:text-lg max-w-xl mx-auto mt-5 leading-relaxed">
