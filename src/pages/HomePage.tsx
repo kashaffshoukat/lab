@@ -339,11 +339,11 @@ export function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-3xl lg:text-4xl font-bold text-white">Bestseller Products</h2>
-          {/* <button onClick={() => navigate('/collections')} className="text-[var(--neon-pink)] text-sm font-semibold flex items-center gap-1 hover:gap-2 transition-all">
+          <button onClick={() => navigate('/collections')} className="text-[var(--neon-pink)] text-sm font-semibold flex items-center gap-1 hover:gap-2 transition-all">
             View All <ArrowRight size={16} />
-          </button> */}
+          </button>
         </div>
-        {/* {loading ? (
+        {loading ? (
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
             {Array.from({ length: 8 }).map((_, i) => <div key={i} className="aspect-square bg-white/5 rounded-2xl animate-pulse" />)}
           </div>
@@ -351,7 +351,7 @@ export function HomePage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
             {products.map((p) => <ProductCard key={p.id} product={p} />)}
           </div>
-        )} */}
+        )}
       </section>
 
       {/* SECOND MARQUEE */}
@@ -516,29 +516,6 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* BLOG */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <div className="text-center mb-10">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white">From Our Blog</h2>
-          <p className="text-gray-400 mt-3">Tips, trends, and stories from the world of neon</p>
-        </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {BLOG_POSTS.map((post, i) => (
-            <article key={i} className="group bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-white/20 transition-colors">
-              <div className="aspect-[16/10] overflow-hidden">
-                <img src={post.img} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-              </div>
-              <div className="p-5">
-                <h3 className="text-white font-bold text-sm lg:text-base leading-snug">{post.title}</h3>
-                <p className="text-gray-400 text-sm mt-2 leading-relaxed line-clamp-3">{post.excerpt}</p>
-                <button className="text-[var(--neon-pink)] text-sm font-medium mt-3 flex items-center gap-1 hover:gap-2 transition-all">
-                  Read more <ArrowRight size={14} />
-                </button>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
     </div>
   );
 }
