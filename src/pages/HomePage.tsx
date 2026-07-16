@@ -330,19 +330,7 @@ export function HomePage() {
         )}
       </section>
 
-      {/* SECOND MARQUEE */}
-      <section className="bg-gradient-to-r from-[var(--neon-pink)] via-[var(--neon-orange)] to-[var(--neon-pink)] overflow-hidden">
-        <div className="flex animate-marquee whitespace-nowrap py-3">
-          {Array.from({ length: 8 }).map((_, i) => (
-            <span key={i} className="text-sm font-bold text-white px-8">
-              SUMMER SALES HAVE STARTED! 10% OFF | COUPON CODE: NEONSUMMER
-              <span className="mx-2 opacity-50">•</span>
-              Free Worldwide Shipping - Orders Over £75
-              <span className="mx-2 opacity-50">•</span>
-            </span>
-          ))}
-        </div>
-      </section>
+      
 
       {/* WHY CHOOSE US */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
