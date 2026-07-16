@@ -75,10 +75,7 @@ export function HomePage() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 lg:pt-20 lg:pb-14 text-center">
           {/* Sale pill */}
-          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-6">
-            <Sparkles size={15} className="text-yellow-300" />
-            <span className="text-sm text-white/90 font-medium">25% OFF All Custom Signs — Limited Time</span>
-          </div>
+          
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
             Custom LED Neon Signs,
@@ -163,11 +160,11 @@ export function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
             {[
-              { icon: Clock, title: 'Quick Turnaround', sub: 'From 7–10 days to UK mainland' },
+              
               { icon: Star, title: '250+ 5-Star Reviews', sub: 'Rated Excellent on Trustpilot' },
               { icon: MapPin, title: 'UK Made in London', sub: 'Handcrafted by our skilled team' },
               { icon: CreditCard, title: 'Pay with Klarna', sub: 'Flexible payment options' },
-              { icon: Truck, title: 'Free Worldwide Shipping', sub: 'On orders over £75' },
+              
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-2.5">
                 <item.icon size={22} className="text-white shrink-0" />
