@@ -5,6 +5,7 @@ import { useCart, useWishlist } from '../cart';
 import { formatPrice } from '../lib';
 
 const NAV = [
+  { label: 'Home', path: '/' },
   { label: 'Customiser', path: '/customiser' },
   { label: 'Collections', path: '/collections' },
   { label: 'Logo Upload', path: '/logo-upload' },
