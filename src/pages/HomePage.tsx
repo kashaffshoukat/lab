@@ -83,7 +83,7 @@ export function HomePage() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
             Custom LED Neon Signs,
             <br />
-            <span style={{ color: 'var(--neon-pink)' }} className="neon-text">Love at First Light!</span>
+            Love at First Light!</span>
           </h1>
 
           <p className="text-white/75 text-base lg:text-lg max-w-xl mx-auto mt-5 leading-relaxed">
@@ -99,7 +99,7 @@ export function HomePage() {
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/8348735/pexels-photo-8348735.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="/public/burger neon.jpg"
                   alt="Design Your Own"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -187,8 +187,8 @@ export function HomePage() {
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-white/60 uppercase tracking-[0.2em] text-xs font-semibold mb-3">GET STARTED TODAY</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
-            Ready to Create{' '}
-            <span style={{ color: 'var(--neon-pink)' }} className="neon-text">Something Amazing?</span>
+            Ready to Create 
+            Something Amazing?
           </h2>
           <p className="text-white/70 mt-4 text-base">Design your own custom LED neon sign.</p>
 
@@ -285,7 +285,7 @@ export function HomePage() {
       </section>
 
       {/* CATEGORIES GRID */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      {/* <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-10">
           <h2 className="text-3xl lg:text-4xl font-bold text-white">Shop By Category</h2>
           <p className="text-gray-400 mt-3">Explore our range of neon collections</p>
@@ -307,11 +307,11 @@ export function HomePage() {
             </button>
           ))}
         </div>
-      </section>
+      </section> */}
 
 
       {/* COLLECTIONS */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      {/* <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-3xl lg:text-4xl font-bold text-white">Collections</h2>
           <button onClick={() => navigate('/collections')} className="text-[var(--neon-pink)] text-sm font-semibold flex items-center gap-1 hover:gap-2 transition-all">
@@ -333,17 +333,17 @@ export function HomePage() {
             </button>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* BESTSELLER PRODUCTS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-3xl lg:text-4xl font-bold text-white">Bestseller Products</h2>
-          <button onClick={() => navigate('/collections')} className="text-[var(--neon-pink)] text-sm font-semibold flex items-center gap-1 hover:gap-2 transition-all">
+          {/* <button onClick={() => navigate('/collections')} className="text-[var(--neon-pink)] text-sm font-semibold flex items-center gap-1 hover:gap-2 transition-all">
             View All <ArrowRight size={16} />
-          </button>
+          </button> */}
         </div>
-        {loading ? (
+        {/* {loading ? (
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
             {Array.from({ length: 8 }).map((_, i) => <div key={i} className="aspect-square bg-white/5 rounded-2xl animate-pulse" />)}
           </div>
@@ -351,7 +351,7 @@ export function HomePage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
             {products.map((p) => <ProductCard key={p.id} product={p} />)}
           </div>
-        )}
+        )} */}
       </section>
 
       {/* SECOND MARQUEE */}
@@ -447,7 +447,7 @@ export function HomePage() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="relative rounded-3xl overflow-hidden border border-white/10">
             <img
-              src="https://images.pexels.com/photos/31338031/pexels-photo-31338031.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/public/burger neon.jpg"
               alt="Contents of the Box"
               className="w-full h-full object-cover"
             />
