@@ -447,7 +447,7 @@ export function HomePage() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="relative rounded-3xl overflow-hidden border border-white/10">
             <img
-              src="/public/burger neon.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pizMpr_WTHNBGB8g3zAe0aoOpaM16Nqshgh79_S4iQ&s=10"
               alt="Contents of the Box"
               className="w-full h-full object-cover"
             />
