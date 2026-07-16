@@ -883,12 +883,12 @@ function PreviewSandbox({
             >
               <div className="absolute top-0 left-1/2 -translate-x-1/2 h-px w-3" style={{ background: dimLineColour }} />
               <div className="flex-1 w-px" style={{ background: dimLineColour }} />
-              <div
-                className="absolute top-1/2 -translate-y-1/2 -right-3 px-2 py-0.5 rounded text-xs font-medium whitespace-nowrap"
-                style={{ color: dimTextColour, background: bgColour, writingMode: 'vertical-rl' }}
-              >
-                {signHeightCm.toFixed(0)} cm
-              </div>
+             <div
+  className="absolute top-1/2 -translate-y-1/2 -right-3 px-2 py-0.5 rounded text-xs font-medium whitespace-nowrap"
+  style={{ color: dimTextColour, background: wallBg, writingMode: 'vertical-rl' }}
+>
+  {signHeightCm.toFixed(0)} cm
+</div>
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-px w-3" style={{ background: dimLineColour }} />
             </div>
 
