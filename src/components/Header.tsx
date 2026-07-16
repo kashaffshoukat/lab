@@ -147,7 +147,7 @@ export function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="lg:hidden fixed inset-0 z-50" style={{ background: '#0a0a0f' }}>
+        <div className="lg:hidden fixed" style={{ background: '#000' }}>
           <div className="flex items-center justify-between h-16 px-4 border-b border-white/10">
             <img src="/logo.png" alt="Neon Lab by Yash" className="h-12 w-auto object-contain" />
             <button onClick={() => setMobileOpen(false)} className="text-white p-2">
